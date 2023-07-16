@@ -106,3 +106,65 @@ nav{
     width: 70%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smaller device  */
+
+@media screen and (max-width: 576px) {
+
+    .header{
+        padding-top: 25px;
+        padding-left: 110px;
+        padding-right: 25px;
+    } 
+    .header{
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    
+    nav{
+        width: 200px;
+    }
+    .ban-tit{
+        color: #131313;
+        font-size: 3rem;
+        font-weight: 800;
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .ban-txt{
+        text-align: center;
+        margin-top: 25px;
+    
+    }
+    .ban-desc{
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    nav li a{
+        text-align: center;
+    }
+    .ban-img img{
+        width: 85%;
+    }
+
+
+}
