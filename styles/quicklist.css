@@ -40,3 +40,43 @@
     margin-top: 20px;
 }
 
+
+
+
+
+/* Responsive section  */
+
+@media screen and (max-width: 576px) {
+    .quicklist{
+        margin-top: 25px;
+        flex-direction: column-reverse;
+        gap: 10px;
+        text-align: center;
+
+    }
+    .quickimg{
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 110px;
+        gap: 15px;
+        margin-top: 80px;
+        margin-bottom: 40px; */
+
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 0;
+        
+    }
+
+    .ql-tit{
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    .ql-desc{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+
