@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+.logo{
+    background-color: #FF900E;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+    color:  rgb(255, 233, 207);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 228px;
+    padding-right: 228px;
+}
+nav li{
+    list-style: none;
+    margin-right: 45px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.head-tit{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/*Banner styles*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.ban-txt{
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.ban-tit{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 800;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.ban-desc{
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+
+/* shared css start  */
+
+.desc-color{
+    color: #727272;
+    font-size: 0.85rem;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFF;
+    font-size: 1.02rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* shared css end  */
+.ban-img{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.ban-img img{
+    width: 70%;
+}
+
