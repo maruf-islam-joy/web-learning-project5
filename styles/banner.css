@@ -168,3 +168,58 @@ nav{
 
 
 }
+
+
+
+/* Medium device  */
+
+@media screen and (min-width: 576.01px) and (max-width: 960px) {
+
+    
+
+    .header{
+        padding-top: 25px;
+        padding-left: 110px;
+        padding-right: 130px;
+    } 
+    .header{
+        /* flex-direction: column; */
+        gap: 80px;
+        margin-bottom: 50px;
+        
+    }
+    .head-tit{
+        width: 200px;
+    }
+    
+    /* nav{
+        width: 150px;
+    } */
+    .ban-tit{
+        color: #131313;
+        font-size: 3rem;
+        font-weight: 800;
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .ban-txt{
+        text-align: center;
+        margin-top: 15px;
+    
+    }
+    .ban-desc{
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    nav li a{
+        text-align: center;
+    }
+    .ban-img img{
+        width: 85%;
+    }
+
+
+}
