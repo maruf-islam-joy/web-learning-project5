@@ -125,7 +125,6 @@ nav{
 /* Smaller device  */
 
 @media screen and (max-width: 576px) {
-
     .header{
         padding-top: 25px;
         padding-left: 110px;
@@ -173,7 +172,7 @@ nav{
 
 /* Medium device  */
 
-@media screen and (min-width: 576.01px) and (max-width: 960px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
 
     
 

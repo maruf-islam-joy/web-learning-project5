@@ -1,0 +1,42 @@
+.quicklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+
+
+
+.quickimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 110px;
+    gap: 15px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+}
+.quickimg img{
+    width: 280px;
+    height: 280px;
+}
+
+
+.ql-tit{
+    font-size: 2rem;
+    width: 380px;
+}
+.ql1{
+    color: #727272;
+}
+.ql2{
+    color: #FF900E;
+}
+.ql-desc{
+    width: 400px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
