@@ -78,66 +78,56 @@
 
 /* smaller devices  */
 @media screen and (max-width:576px) {
-
-    /*.features{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 50px;
-}*/
     .features {
         flex-direction: column;
         gap: 50px;
-
-
     }
-
     .feat-desc {
         margin-top: 25px;
         width: 300px;
         text-align: center;
-
     }
-
     .feat-box {
         text-align: center;
         width: 70%;
-        
-
     }
-
     .box-desc {
         text-align: center;
     }
-
     .feat-img img {
         width: 100%;
-
     }
-
     .feat-img {
         width: 70%;
         margin-left: 60px;
-
     }
-
     .box-10year {
         width: 150px;
         height: 70px;
         bottom: 100px;
         left: -20px;
-
     }
     .year-tit {
         font-size: 1.5rem;
  
     }
-
     .feat-tit {
         color: #131313;
         font-size: 2.3rem;
         text-align: center;
         padding-left: 10px;
     }
+
+}
+
+
+/* medium device  */
+@media screen and (min-width:576px) and (max-width:1060px){
+    .features{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
 
 }
