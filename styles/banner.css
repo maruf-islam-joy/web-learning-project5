@@ -138,6 +138,8 @@ nav{
     
     nav{
         width: 200px;
+        
+        
     }
     .ban-tit{
         color: #131313;
@@ -172,7 +174,7 @@ nav{
 
 /* Medium device  */
 
-@media screen and (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 576px) and (max-width: 1060px) {
 
     
 
@@ -180,6 +182,7 @@ nav{
         padding-top: 25px;
         padding-left: 110px;
         padding-right: 130px;
+        
     } 
     .header{
         /* flex-direction: column; */
@@ -219,6 +222,7 @@ nav{
     .ban-img img{
         width: 85%;
     }
+    
 
 
 }

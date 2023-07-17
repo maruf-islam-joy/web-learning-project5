@@ -46,6 +46,8 @@
 
 /* Responsive section  */
 
+
+/* smaller device  */
 @media screen and (max-width: 576px) {
     .quicklist{
         margin-top: 25px;
@@ -55,13 +57,6 @@
 
     }
     .quickimg{
-        /* display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding-left: 110px;
-        gap: 15px;
-        margin-top: 80px;
-        margin-bottom: 40px; */
-
         grid-template-columns: repeat(1,1fr);
         padding-left: 0;
         
@@ -78,5 +73,41 @@
         margin: 0 auto;
         margin-bottom: 25px;
     }
+}
+
+
+/* Medium devices  */
+@media screen and (min-width:576.01px) and (max-width:1060px){
+    
+    .quicklist{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 25px;
+        margin-right: 0px;
+        gap: 0px;
+        flex: 1;
+        width: 830px;
+        margin: 25px auto;
+        
+        
+        
+    }
+    .quickimg{
+        padding-left: 0px;
+        
+        
+    }
+    .ql-tit{
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .ql-desc{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    
+    
 }
 
