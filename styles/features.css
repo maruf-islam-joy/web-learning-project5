@@ -1,0 +1,52 @@
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.feat-txt{
+    margin-left: 50px;
+}
+.feat-tit{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 25px;
+    
+}
+.feat-desc{
+    width: 450px;
+    color: #727272c7;
+}
+.feat-box{
+    width:390px;
+    padding: 30px 30px 30px 32px ;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+.feat-img img{
+    width: 550px;
+    
+}
+.box-10year{
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    background-color: #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: -60px;
+}
+.year-tit{
+    font-size: 2.5rem;
+    
+
+}
