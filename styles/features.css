@@ -1,41 +1,60 @@
-
-.features{
+.features {
     display: flex;
     justify-content: center;
     gap: 100px;
     margin-top: 50px;
 }
-.feat-txt{
+
+.feat-txt {
     margin-left: 50px;
 }
-.feat-tit{
+
+.feat-tit {
     color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
     border-left: 5px solid #FF900E;
     padding-left: 25px;
-    
+    margin-bottom: 25px;
+
 }
-.feat-desc{
+
+.feat-desc {
     width: 450px;
     color: #727272c7;
+    line-height: 25px;
+    margin-bottom: 25px;
 }
-.feat-box{
-    width:390px;
-    padding: 30px 30px 30px 32px ;
+
+.feat-box {
+    width: 390px;
+    padding: 30px 30px 30px 32px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     margin-bottom: 25px;
     border-radius: 8px;
 }
-.feat-img img{
+
+.feat-img img {
     width: 550px;
-    
+
 }
-.box-10year{
+
+.box-tit {
+    margin-bottom: 10px;
+}
+
+.box-desc {
+    text-align: left;
+    line-height: 25px;
+}
+
+.box-10year {
     text-align: center;
     width: 250px;
     height: 150px;
     background-color: #FF900E;
+    border: none;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,8 +64,80 @@
     bottom: 100px;
     left: -60px;
 }
-.year-tit{
+
+.year-tit {
     font-size: 2.5rem;
-    
+
+
+
+}
+
+
+
+/* Responsive design  */
+
+/* smaller devices  */
+@media screen and (max-width:576px) {
+
+    /*.features{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}*/
+    .features {
+        flex-direction: column;
+        gap: 50px;
+
+
+    }
+
+    .feat-desc {
+        margin-top: 25px;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    .feat-box {
+        text-align: center;
+        width: 70%;
+        
+
+    }
+
+    .box-desc {
+        text-align: center;
+    }
+
+    .feat-img img {
+        width: 100%;
+
+    }
+
+    .feat-img {
+        width: 70%;
+        margin-left: 60px;
+
+    }
+
+    .box-10year {
+        width: 150px;
+        height: 70px;
+        bottom: 100px;
+        left: -20px;
+
+    }
+    .year-tit {
+        font-size: 1.5rem;
+ 
+    }
+
+    .feat-tit {
+        color: #131313;
+        font-size: 2.3rem;
+        text-align: center;
+        padding-left: 10px;
+    }
 
 }
